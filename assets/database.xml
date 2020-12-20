@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+	<table id="statistics">
+	    <threshold>1.96</threshold>
+	    <characters>
+			<object id="letter_s" text="s">
+				<random_var name="phi1">
+					<mean>0.701</mean>
+					<stdev>0.075</stdev>
+				</random_var>
+				<random_var name="phi2">
+					<mean>0.156</mean>
+					<stdev>0.069</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.477</mean>
+					<stdev>0.076</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.416</mean>
+					<stdev>0.034</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.156</mean>
+					<stdev>0.014</stdev>
+				</random_var>
+			</object>
+			<object id="number_1" text="1">
+				<random_var name="phi1">
+					<mean>0.525</mean>
+					<stdev>0.079</stdev>
+				</random_var>
+				<random_var name="phi2">
+					<mean>0.255</mean>
+					<stdev>0.084</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.568</mean>
+					<stdev>0.096</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.535</mean>
+					<stdev>0.02</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.249</mean>
+					<stdev>0.013</stdev>
+				</random_var>
+			</object>
+			<object id="number_2" text="2">
+				<random_var name="phi1">
+					<mean>0.441</mean>
+					<stdev>0.064</stdev>
+				</random_var>
+				<random_var name="filling">
+					<mean>0.353</mean>
+					<stdev>0.041</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>52.102</mean>
+					<stdev>9.538</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.556</mean>
+					<stdev>0.058</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.39</mean>
+					<stdev>0.04</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.159</mean>
+					<stdev>0.017</stdev>
+				</random_var>
+			</object>
+			<object id="number_3" text="3">
+				<random_var name="phi1">
+					<mean>0.511</mean>
+					<stdev>0.098</stdev>
+				</random_var>
+				<random_var name="filling">
+					<mean>0.343</mean>
+					<stdev>0.035</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.444</mean>
+					<stdev>0.055</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.496</mean>
+					<stdev>0.034</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.144</mean>
+					<stdev>0.022</stdev>
+				</random_var>
+			</object>
+			<object id="number_4" text="4">
+				<random_var name="phi1">
+					<mean>0.584</mean>
+					<stdev>0.046</stdev>
+				</random_var>
+				<random_var name="phi2">
+					<mean>0.093</mean>
+					<stdev>0.036</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.458</mean>
+					<stdev>0.023</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.517</mean>
+					<stdev>0.029</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.163</mean>
+					<stdev>0.009</stdev>
+				</random_var>
+			</object>
+			<object id="number_5" text="5">
+				<random_var name="phi1">
+					<mean>0.642</mean>
+					<stdev>0.075</stdev>
+				</random_var>
+				<random_var name="phi2">
+					<mean>0.127</mean>
+					<stdev>0.047</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.527</mean>
+					<stdev>0.042</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.499</mean>
+					<stdev>0.027</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.122</mean>
+					<stdev>0.008</stdev>
+				</random_var>
+			</object>
+			<object id="number_6" text="6">
+				<random_var name="phi1">
+					<mean>0.357</mean>
+					<stdev>0.057</stdev>
+				</random_var>
+				<random_var name="filling">
+					<mean>0.401</mean>
+					<stdev>0.049</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>48.392</mean>
+					<stdev>7.623</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.527</mean>
+					<stdev>0.024</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.314</mean>
+					<stdev>0.014</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.202</mean>
+					<stdev>0.015</stdev>
+				</random_var>
+			</object>
+			<object id="number_7" text="7">
+				<random_var name="phi1">
+					<mean>0.571</mean>
+					<stdev>0.108</stdev>
+				</random_var>
+				<random_var name="filling">
+					<mean>0.286</mean>
+					<stdev>0.037</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.507</mean>
+					<stdev>0.042</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.565</mean>
+					<stdev>0.022</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.164</mean>
+					<stdev>0.014</stdev>
+				</random_var>
+			</object>
+			<object id="number_8" text="8">
+				<random_var name="phi1">
+					<mean>0.3</mean>
+					<stdev>0.035</stdev>
+				</random_var>
+				<random_var name="circularity">
+					<mean>0.57</mean>
+					<stdev>0.041</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.533</mean>
+					<stdev>0.05</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.497</mean>
+					<stdev>0.037</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.197</mean>
+					<stdev>0.014</stdev>
+				</random_var>
+			</object>
+			<object id="number_9" text="9">
+				<random_var name="phi1">
+					<mean>0.393</mean>
+					<stdev>0.158</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>32.594</mean>
+					<stdev>2.732</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.406</mean>
+					<stdev>0.042</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.681</mean>
+					<stdev>0.01</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.272</mean>
+					<stdev>0.027</stdev>
+				</random_var>
+			</object>
+			<object id="cross" text="+">
+				<random_var name="phi1">
+					<mean>0.318</mean>
+					<stdev>0.036</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>43.108</mean>
+					<stdev>6.307</stdev>
+				</random_var>
+				<random_var name="centroid_x">
+					<mean>0.521</mean>
+					<stdev>0.03</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.494</mean>
+					<stdev>0.029</stdev>
+				</random_var>
+				<random_var name="radius">
+					<mean>0.161</mean>
+					<stdev>0.012</stdev>
+				</random_var>
+			</object>
+			<object id="minus" text="-">
+				<random_var name="phi1">
+					<mean>0.997</mean>
+					<stdev>0.116</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>47.88</mean>
+					<stdev>5.624</stdev>
+				</random_var>
+			</object>
+		</characters>
+		<objects>
+			<object id="rectangle">
+				<random_var name="phi1">
+					<mean>0.183</mean>
+					<stdev>0.032</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>14.992</mean>
+					<stdev>1.326</stdev>
+				</random_var>
+			</object>
+			<object id="ellipse">
+				<random_var name="circularity">
+					<mean>0.996</mean>
+					<stdev>0.034</stdev>
+				</random_var>
+			</object>
+			<object id="bar">
+				<random_var name="phi1">
+					<mean>0.997</mean>
+					<stdev>0.116</stdev>
+				</random_var>
+				<random_var name="compactness">
+					<mean>47.88</mean>
+					<stdev>5.624</stdev>
+				</random_var>
+			</object>
+			<object id="inner_contour_region">
+				<random_var name="filling_area">
+					<mean>0.218</mean>
+					<stdev>0.115</stdev>
+				</random_var>
+				<random_var name="filling_perimeter">
+					<mean>0.115</mean>
+					<stdev>0.044</stdev>
+				</random_var>				
+			</object>
+			<object id="division_symbol">
+			    <random_var name="centroid_x">
+					<mean>0.013</mean>
+					<stdev>0.013</stdev>
+				</random_var>
+				<random_var name="centroid_y">
+					<mean>0.051</mean>
+					<stdev>0.090</stdev>
+				</random_var>
+			</object>
+		</objects>
+	</table>
+</database>
